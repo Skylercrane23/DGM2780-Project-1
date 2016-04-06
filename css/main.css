@@ -1,0 +1,156 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	margin: auto;
+	margin-top: 0px;
+    padding: 0px;
+    background-color: #fff;
+    color: #555;
+}
+
+/* ---------------- Jumbotron ---------------- */
+
+.jumbotron {
+	background-color: #333;
+	padding: 19% 0 19% 0;
+	margin: auto;
+	border-bottom: 1px solid #000;
+	background: transparent url(../img/jumbotronbackground.jpg);
+	background-position: 0% 20%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    background-size: 100% 100%;
+}
+
+.jumbotron .container .custom-btn {
+	background: #888888;
+	color: #fff;
+}
+
+.jumbotron .container .custom-btn:hover {
+	background: #FFB90F;
+}
+
+/* ---------------- Nav Bar ---------------- */
+
+nav.navbar {
+	padding: 3px;
+	margin: auto;
+	border-bottom: #555 1px solid;
+	width: 100%;
+	opacity: .97;
+	border-radius: 0px;
+	z-index: 1000;
+}
+nav .container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav .navbar-inverse {
+	background: #222;
+}
+nav .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 8px 10px;
+    margin-top: 7px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+nav .glyphicon {
+    position: relative;
+    top: 1px;
+    right: 3px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+} 
+ nav .navbar-nav {
+	text-align: left;
+}
+nav .navbar-nav li  a{
+	font-size: 16px;
+}
+nav a.navbar-brand {
+	margin: 0px;
+	padding: 2px 0px 2px 20px; 
+	font-size: 18px;
+	border-radius: 0px;
+}
+nav a img.logo {
+	display: inline-block;
+	height: auto;
+	padding-right: 10px;
+}
+
+
+/* ---------------- Trail Tuhumbnails Headings ---------------- */
+
+div.trailthumbnail img {
+	border: #999 1px solid;
+	border-radius: 10px;
+}
+
+div.trailthumbnail h3 {
+	text-align: center;
+}
+div.trailthumbnail p {
+	text-align: center;
+}
+
+
+/* ---------------- Page Headings ---------------- */
+
+.page-header {
+	margin: 65px 0 25px 0;
+}
+
+
+/* ---------------- Features ---------------- */
+
+div.panel {
+	margin: 20px 0 20px 0;
+}
+
+
+
+/* ---------------- Carousel ---------------- */
+
+div.carousel {
+	margin: 20px 0px 20px 0px;
+	padding: 0;
+	width: 100%;
+}
+div.carousel img {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+/* ---------------- Form ---------------- */
+
+form {
+	margin: 75px 0 75px 0;
+}
+
+form label {
+	padding: 15px 0 0px 0;
+}
+form button.btn {
+	margin-top: 15px;
+}
+
+
+
+
